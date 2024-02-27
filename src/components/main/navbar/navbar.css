@@ -1,0 +1,23 @@
+nav, nav ul {
+    display: flex;
+    align-items: center;
+} 
+
+nav ul {
+    width: 200px;
+    height: 100%;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #FFF;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #FFF;
+}
