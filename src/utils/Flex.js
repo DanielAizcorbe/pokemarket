@@ -8,8 +8,8 @@ const Rows = ({children, centered, justify, align, width, height, padding}) => {
     const rowStyles = {
         justifyContent: justify || "",
         alignItems: align || "",
-        width: width || "100%",
-        height: height || "100%",
+        width: width || "auto",
+        height: height || "auto",
         padding: padding || "0",
     };
 
