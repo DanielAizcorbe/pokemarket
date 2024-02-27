@@ -52,7 +52,21 @@ h1 {
 .search-bar {
     width: 70%;
     height: 2rem;
-    outline: none;
+    outline: 0;
     padding: 0 10px;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid #FFF;
 }
 
+.search-bar::placeholder {
+    font-style: italic;
+}
+
+.btn-buscar {
+    background-color: inherit;
+    border: 1px solid #FFF;
+    padding: 7px;
+    cursor: pointer;
+    color: #FFF;
+    border-radius: 0 6px 6px 0;
+}
