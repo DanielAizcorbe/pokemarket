@@ -3,19 +3,23 @@ import { Rows } from '../../../utils/Flex'
 
 export const Logo = () => {
     return (
-        <Rows
-            centered
-            width={"auto"}
-            padding={"0 10px"}
+        <a
+            href='#'
         >
-            <img
-                alt='logo pokeball'
-                src='https://fakeimg.pl/60x60?text=LOGO'
-                className='pokeball-logo'
-            />
-            <h1>
-                PokeMarket
-            </h1>
-        </Rows>
+            <Rows
+                centered
+                width={"auto"}
+                padding={"0 10px"}
+            >
+                <img
+                    alt='logo pokeball'
+                    src='https://fakeimg.pl/60x60?text=LOGO'
+                    className='pokeball-logo'
+                />
+                <h1>
+                    PokeMarket
+                </h1>
+            </Rows>
+        </a>
     )
 }
