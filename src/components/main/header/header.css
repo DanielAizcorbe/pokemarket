@@ -45,3 +45,14 @@ h1 {
     color: #FFFFFF;
 }
 
+/*
+    Search Bar
+*/
+
+.search-bar {
+    width: 70%;
+    height: 2rem;
+    outline: none;
+    padding: 0 10px;
+}
+

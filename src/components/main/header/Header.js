@@ -10,6 +10,7 @@ export const Header = ({children}) => {
                 padding={"0 2rem"}
                 width={"100%"}
                 justify={"space-between"}
+                align={"center"}
             >
                 <Logo />
                 {children}
