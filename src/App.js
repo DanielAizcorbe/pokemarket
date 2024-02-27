@@ -1,17 +1,16 @@
+import React from 'react';
+
 import './App.css';
-import { Body } from './components/main/body/Body';
-import { Header } from './components/main/header/Header';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Home } from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Header>
-
-      </Header>
-      <Body>
-      
-      </Body>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
