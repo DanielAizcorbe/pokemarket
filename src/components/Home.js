@@ -1,25 +1,14 @@
 import React from 'react'
-import { Columns } from '../utils/Flex'
-import { Header } from './main/header/Header'
-import { Body } from './main/body/Body'
-import { NavBar } from './main/navbar/NavBar'
-import { SearchBar } from './main/header/SearchBar'
+import "./home.css";
+import { Header } from './header/Header';
 
 const Home = () => {
-
     return (
-        <Columns
-            width={"100%"}
-            height={"100%"}
-        >
-            <Header>
-                <SearchBar />
-                <NavBar />
-            </Header>
-            <Body>
-            </Body>
-        </Columns>
+        <div className='body'>
+            <Header />
+            
+        </div>
     )
 }
 
-export { Home }
+export default Home
